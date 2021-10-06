@@ -42,8 +42,8 @@ listener "tcp" {
 #  tls_key_file  = "/opt/vault/tls/tls.key"
 #}
 
-api_addr = "http://192.168.35.4:8200"
-cluster_addr = "http://192.168.35.4:8201"
+api_addr = "http://VAULT_NODE_IP:8200"
+cluster_addr = "http://VAULT_NODE_IP:8201"
 
 # Enterprise license_path
 # This will be required for enterprise as of v1.8
